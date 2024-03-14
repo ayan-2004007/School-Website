@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height:90vh;
+    width: 100vw;
+    background-image: url(eduford_img/eduford_img/background4.jpg);
+    background-position: 0px -191px;
+    background-size: cover;
+    filter: contrast(1);
+    background-repeat: no-repeat;
+}
+.blackBox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(180deg, #000000e6, #000000c7, #00000040, #000000c7, #000000);
+}
+.navbar{
+    /* height: 5vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding-left: 36px;
+}
+.logo img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.logo h2{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+}
+.items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+.items ul li{
+    color: white;
+    font-size: 20px;
+}
+.items ul li a{
+    text-decoration: none;
+    color: white;
+}
+.items ul li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    text-shadow: 9px 5px 2px black;
+}
+.header-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+    position: relative;
+    top: 52vh;
+}
+.header-heading h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 1vw;
+    word-spacing: 2vw;
+}
+
+
+.separation{
+    position: relative;
+    top: 10vh;
+    color: rgb(57, 56, 56);
+    padding: 0 10vw;
+}
+
+.section-course-offers{
+    height: 80vh;
+    width: 100vw;
+    padding-top: 18vh;
+    background-color: #d5d5d566;
+    display: flex;
+    flex-direction: column;
+}
+.section-course-offers-heading{
+    font-family: "Belleza", sans-serif;
+    font-size: 45px;
+    font-weight: light;
+    text-align: center;
+}
+.section-course-offers-heading p{
+    font-size: 30px;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    padding: 0 10vw;
+    color: #565555db;
+}
+.section-course-offers-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10vh;
+}
+.box{
+    height: 39vh;
+    width: 33vw;
+    background-color: rgba(128, 128, 128, 0.847);
+    border-radius: 50px;
+    box-shadow: 16px 14px 12px 0px #00000066;
+}
+.secondary{
+    background-color: #E3E7F5;
+    text-align: center;
+    padding: 20px;
+}
+.secondary h2{
+    font-size: 35px;
+    font-family: "Biryani", sans-serif;
+    position: relative;
+    top: 4vh;
+}
+.secondary p{
+    position: relative;
+    top: 12vh;
+    font-size: 20px;
+    color: rgba(54, 53, 53, 0.808);
+}
+.high-secondary{
+    background-color: #F1E6D4;
+    text-align: center;
+    padding: 20px;
+}
+.high-secondary h2{
+    font-size: 35px;
+    font-family: "Biryani", sans-serif;
+    position: relative;
+    top: 4vh;
+}
+.high-secondary p{
+    position: relative;
+    top: 12vh;
+    font-size: 20px;
+    color: rgba(54, 53, 53, 0.698);
+}
+
+.section-our-facilities{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 15vh;
+}
+.section-our-facilities-heading{
+    font-family: "Belleza", sans-serif;
+    font-size: 45px;
+    font-weight: light;
+    text-align: center;
+}
+.section-our-facilities-heading p{
+    font-size: 30px;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    padding: 0 5vw;
+    color: #565555db;
+}
+.section-our-facilities-items{
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 8vh;
+    background-image: linear-gradient(180deg, rgb(229 229 229 / 9%), rgb(95 95 95 / 78%), rgb(38 37 37 / 98%));
+}
+.box2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:50vh;
+    width: 25vw;
+}
+.box2-container h1{
+    font-family: "Chilanka", cursive;
+   font-weight: bold;
+   font-style: normal;
+   color: rgb(19, 19, 19);
+}
+.box2-container p{
+    font-family: "Buda", serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 22px;
+    color: whitesmoke;
+}
+.box2{
+    border-radius: 10px;
+    height: 30vh;
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.library{
+    background-image:url(eduford_img/eduford_img/library.png);
+    background-position: center;
+    background-size: cover;
+}
+.playground{
+    background-image:url(eduford_img/eduford_img/basketball.png);
+    background-position: center;
+    background-size: cover;
+}
+.fooding{
+    background-image:url(eduford_img/eduford_img/cafeteria.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    margin-top: 10vh;
+    width: 100vw;
+    background-color: #80808066;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding: 5vh;
+}
+.footer-content{
+    width: 50vw;
+}
+.footer-heading{
+    text-align: center;
+}
+.footer-heading h1{
+    font-size: 48px;
+    font-family: "Biryani", sans-serif;
+}
+.footer-para{
+    font-size: 24px;
+    text-align: center;
+    font-family:"Poppins", sans-serif;
+    font-weight:300;
+    color: rgb(67 65 65);
+}
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-social-icons{
+    height: 55px;
+    width: 55px;
+    filter: saturate(3);
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.footer-social-icons:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}

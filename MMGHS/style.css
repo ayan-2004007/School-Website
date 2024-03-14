@@ -1,0 +1,518 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height:90vh;
+    width: 100vw;
+    background-image: url(eduford_img/eduford_img/banner.png);
+    background-position: 0px -191px;
+    background-size: cover;
+    filter: contrast(1);
+}
+.blackBox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 /63%);
+}
+.navbar{
+    /* height: 5vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding-left: 36px;
+}
+.logo img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.logo h2{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+}
+.items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+.items ul li{
+    color: white;
+    font-size: 20px;
+}
+.items ul li a{
+    text-decoration: none;
+    color: white;
+}
+.items ul li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    text-shadow: 9px 5px 2px black;
+}
+.header-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+    position: relative;
+    top: 31vh;
+}
+.header-heading h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: bolder;
+    color: white;
+}
+.header-heading p{
+    color: white;
+    font-size: 20px;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    padding: 0 10vw;
+}
+.header-button{
+    text-align: center;
+    /* align-items: center; */
+    position: relative;
+    top: 45vh;
+}
+.view-website{
+    padding: 10px;
+    width: 10vw;
+    height: 5vh;
+    background-color: #1e1d1d78;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.view-website:hover{
+    box-shadow: 1px 2px 10px 4px grey;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.view-website a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Biryani", sans-serif;
+}
+
+.separation{
+    position: relative;
+    top: 10vh;
+    color: rgb(57, 56, 56);
+    padding: 0 10vw;
+}
+
+.section-course-offers{
+    height: 80vh;
+    width: 100vw;
+    padding-top: 18vh;
+    background-color: #d5d5d566;
+    display: flex;
+    flex-direction: column;
+}
+.section-course-offers-heading{
+    font-family: "Belleza", sans-serif;
+    font-size: 45px;
+    font-weight: light;
+    text-align: center;
+}
+.section-course-offers-heading p{
+    font-size: 30px;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    padding: 0 10vw;
+    color: #565555db;
+}
+.section-course-offers-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10vh;
+}
+.box{
+    height: 39vh;
+    width: 33vw;
+    background-color: rgba(128, 128, 128, 0.847);
+    border-radius: 50px;
+    box-shadow: 16px 14px 12px 0px #00000066;
+}
+.secondary{
+    background-color: #E3E7F5;
+    text-align: center;
+    padding: 20px;
+}
+.secondary h2{
+    font-size: 35px;
+    font-family: "Biryani", sans-serif;
+    position: relative;
+    top: 4vh;
+}
+.secondary p{
+    position: relative;
+    top: 12vh;
+    font-size: 20px;
+    color: rgba(54, 53, 53, 0.808);
+}
+.high-secondary{
+    background-color: #F1E6D4;
+    text-align: center;
+    padding: 20px;
+}
+.high-secondary h2{
+    font-size: 35px;
+    font-family: "Biryani", sans-serif;
+    position: relative;
+    top: 4vh;
+}
+.high-secondary p{
+    position: relative;
+    top: 12vh;
+    font-size: 20px;
+    color: rgba(54, 53, 53, 0.698);
+}
+
+.section-our-facilities{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 15vh;
+}
+.section-our-facilities-heading{
+    font-family: "Belleza", sans-serif;
+    font-size: 45px;
+    font-weight: light;
+    text-align: center;
+}
+.section-our-facilities-heading p{
+    font-size: 30px;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    padding: 0 5vw;
+    color: #565555db;
+}
+.section-our-facilities-items{
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 8vh;
+    background-image: linear-gradient(180deg, rgb(229 229 229 / 9%), rgb(95 95 95 / 78%), rgb(38 37 37 / 98%));
+}
+.box2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:50vh;
+    width: 25vw;
+}
+.box2-container h1{
+    font-family: "Chilanka", cursive;
+   font-weight: bold;
+   font-style: normal;
+   color: rgb(19, 19, 19);
+}
+.box2-container p{
+    font-family: "Buda", serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 22px;
+    color: whitesmoke;
+}
+.box2{
+    border-radius: 10px;
+    height: 30vh;
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.library{
+    background-image:url(eduford_img/eduford_img/library.png);
+    background-position: center;
+    background-size: cover;
+}
+.playground{
+    background-image:url(eduford_img/eduford_img/basketball.png);
+    background-position: center;
+    background-size: cover;
+}
+.fooding{
+    background-image:url(eduford_img/eduford_img/cafeteria.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-messege-to-the-students{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 15vh;
+}
+.section-messege-to-the-students-heading{
+    font-family: "Belleza", sans-serif;
+    font-size: 45px;
+    font-weight: light;
+    text-align: center;
+}
+.section-messege-to-the-students-heading p{
+    font-size: 30px;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    padding: 0 5vw;
+    color: #565555db;
+}
+.section-messege-to-the-students-items{
+    margin: 0 auto;
+    width: 80%;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 5vh;
+    position: relative;
+    top: 5vh;
+    background-color: #e5a3544a;
+}
+.box3-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 3vw;
+    height: 25vh;
+    width: 80vw;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.box3{
+    border-radius: 10px;
+    height: 25vh;
+    width: 100vw;
+}
+.box3-container p{
+    font-family: "Chilanka", cursive;
+    font-size: 24px;
+    text-align: left;
+}
+.reverse p{
+    text-align: right;
+}
+.head{
+    background-image:url(eduford_img/eduford_img/user1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ass-head{
+    background-image:url(eduford_img/eduford_img/user2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#section-messege-to-the-students-items-separation{
+    background-color: rgb(35, 35, 35);
+    height: 5px;
+    width: 80vw;
+    border: none;
+}
+
+
+.section-what-our-student-says{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 10vh;
+}
+.section-what-our-student-says-heading{
+    font-family: "Belleza", sans-serif;
+    font-size: 45px;
+    font-weight: light;
+    text-align: center;
+}
+.section-what-our-student-says-heading p{
+    font-size: 30px;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    padding: 0 5vw;
+    color: #565555db;
+}
+.section-what-our-student-says-items{
+    padding: 5vw;
+    margin: 0 auto;
+    width: 80%;
+    height: 52vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 7vh;
+    justify-content: center; 
+    align-items: center;
+    background-image: linear-gradient(45deg, rgb(29 42 80), rgb(90 102 152 / 36%), rgb(29 42 80));
+    position: relative;
+    top: 5vh;
+}
+.box4{
+    height: 20vh;
+    width: 20vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: aliceblue;
+    border-radius: 35px;
+    box-shadow: 13px 11px 3px rgb(12 18 51);
+}
+.box4-image img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    position: relative;
+    top: 3vh;
+}
+.box4-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.checked {
+    color: orange;
+}
+.box4-review p{
+    font-family: "Belleza", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.enroll{
+    margin: 10vh auto;
+    height: 50vh;
+    width: 60vw;
+    /* position: relative;
+    top: 10vh; */
+    background-image: url(eduford_img/eduford_img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.black-box-enroll{
+    height: 100%;
+    width: 100%;
+    background-color: #000000c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.enroll h1{
+    font-family:"Poppins", sans-serif;
+    color: white;
+    font-size: 48px;
+}
+.enroll-button{
+    text-align: center;
+    height: 5vh;
+    width: 9vw;
+    font-size: 24px;
+    font-family: "Biryani", sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #e9e4e433;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.enroll-button:hover{
+    transform: scale(1.1);
+}
+.separation-up-enroll{
+    position: relative;
+    top: 4vh;
+    color: rgb(22 21 21);
+    padding: 0 10vw;
+}
+
+.footer{
+    width: 100vw;
+    background-color: #80808066;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding: 5vh;
+}
+.footer-content{
+    width: 50vw;
+}
+.footer-heading{
+    text-align: center;
+}
+.footer-heading h1{
+    font-size: 48px;
+    font-family: "Biryani", sans-serif;
+}
+.footer-para{
+    font-size: 24px;
+    text-align: center;
+    font-family:"Poppins", sans-serif;
+    font-weight:300;
+    color: rgb(67 65 65);
+}
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-social-icons{
+    height: 55px;
+    width: 55px;
+    filter: saturate(3);
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.footer-social-icons:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
